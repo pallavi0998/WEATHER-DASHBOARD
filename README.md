@@ -53,30 +53,11 @@ If a user enters an incorrect city name or if there is an issue with fetching da
 5. Responsive Design
 The UI was built using CSS Flexbox and Bootstrap, making it fully responsive across various screen sizes. Whether on a mobile device or a large desktop, the app maintains a consistent and visually appealing layout.
 
-Development Process
-1. Setting Up the Project
-The project was initiated using VS Code, where I created a React app structure with essential components and dependencies.
-
-2. API Integration
-I connected the application to the OpenWeatherMap API, enabling real-time data retrieval based on user input. The API call was structured to fetch and display weather information dynamically.
-
-3. State Management in React
-To handle data efficiently, I implemented React’s useState and useEffect hooks. These ensured that the app re-renders with updated weather details as soon as new data is fetched.
-
-4. UI Design & Styling
-A clean and modern UI was created with CSS and Bootstrap, ensuring readability and ease of navigation. The app's color scheme and layout were designed to enhance user engagement.
-
-5. Testing & Deployment
-I conducted testing across different browsers and devices to ensure responsiveness and functionality. The app was then deployed using Netlify, making it accessible online.
-
-Challenges Faced & Solutions
-Handling API Errors:
-If a city was not found, an error message was displayed instead of crashing the app.
-Ensuring Responsiveness:
-Used CSS and Bootstrap to ensure a consistent UI across devices.
-Optimizing API Calls:
-Implemented a debounce mechanism to reduce excessive API requests when users typed quickly.
 Conclusion
 Building this Weather App in React.js was an enriching experience that strengthened my frontend development skills, particularly in API integration, state management, and responsive UI design. The app is lightweight, user-friendly, and can be extended with additional features such as hourly forecasts, location-based weather tracking, and theme customization.
 
-This project demonstrates the power of React.js in creating dynamic web applications that provide real-time data with seamless user interaction. 🚀
+This project demonstrates the power of React.js in creating dynamic web applications that provide real-time data with seamless user interaction. 
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/b8c638ce-478f-48c7-a3d6-3af2828bf37f)
